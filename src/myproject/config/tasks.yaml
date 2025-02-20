@@ -1,0 +1,12 @@
+write_email_task:
+  description: >
+    Write a professional email for the following context:
+    Topic: {email_topic}
+    Recipient: {recipient}
+    Tone: {tone}
+    Additional Context: {context}
+  expected_output: >
+    A professional email with subject line and body text, formatted appropriately.
+    Include a clear subject line, professional greeting, well-structured body, and appropriate closing.
+    Make sure the tone matches the requested style: {tone}.
+  agent: email_specialist
