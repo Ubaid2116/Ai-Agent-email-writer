@@ -2066,6 +2066,7 @@ name = "myproject"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "chromadb" },
     { name = "crewai", extra = ["tools"] },
     { name = "python-dotenv" },
     { name = "pyyaml" },
@@ -2074,6 +2075,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "chromadb", specifier = ">=0.4.24" },
     { name = "crewai", extras = ["tools"], specifier = ">=0.100.1,<1.0.0" },
     { name = "python-dotenv", specifier = ">=1.0.0" },
     { name = "pyyaml", specifier = ">=6.0.1" },
