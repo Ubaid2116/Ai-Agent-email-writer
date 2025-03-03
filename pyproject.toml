@@ -2,14 +2,13 @@
 name = "myproject"
 version = "0.1.0"
 description = "MyProject using crewAI"
-authors = [{ name = "Muhammad Ubaid", email = "ukubaid@gmail.com" }]
-requires-python = ">=3.10,<3.13"
+authors = [{ name = "Muhammad Ubaid", email = "ukubaid74@gmail.com" }]
+requires-python = ">=3.10,<3.11"
 dependencies = [
     "crewai[tools]>=0.100.1,<1.0.0",
     "streamlit>=1.32.0",
     "python-dotenv>=1.0.0",
     "pyyaml>=6.0.1",
-    "chromadb>=0.4.24"
 ]
 
 [project.scripts]
